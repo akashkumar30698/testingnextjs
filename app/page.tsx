@@ -424,7 +424,7 @@ useEffect(() => {
 
   };
 
-  // Function to get a color for each station
+  // Function to get a color for each statio
   const getStationColor = (station: string): string => {
     return stationColors[station] || '#7f00ff'; // Default to purple if no color defined
   };
